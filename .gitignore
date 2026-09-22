@@ -1,0 +1,39 @@
+# 为后续可运行代码预留
+
+# 依赖
+node_modules/
+.pnp/
+.pnp.js
+dist/
+build/
+out/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+
+# 环境与密钥（永不提交）
+.env
+.env.*
+*.pem
+*.key
+*.p12
+credentials*.json
+*secret*
+
+# 系统与编辑器
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 日志与本地数据
+*.log
+*.sqlite
+*.db
+data/
